@@ -1,0 +1,31 @@
+# LEDs
+//NET "LED[3]"  	LOC = P4;
+//NET "LED[2]"  	LOC = N5;
+//NET "LED[1]"  	LOC = P5;
+//NET "LED[0]"  	LOC = M6;
+
+NET "clk"  		LOC = T8; 
+
+NET "sseg[0]"  	LOC = C7;
+NET "sseg[1]"  	LOC = E6;
+NET "sseg[2]"  	LOC = C5;
+NET "sseg[3]"  	LOC = F7;
+NET "sseg[4]"  	LOC = D6;
+NET "sseg[5]"  	LOC = E7;
+NET "sseg[6]"  	LOC = D5;
+NET "sseg[7]"  	LOC = C6;
+
+NET "en[0]"  	LOC = D8;
+NET "en[1]"  	LOC = E8;
+NET "en[2]"  	LOC = F9;
+NET "en[3]"  	LOC = F10;
+NET "en[4]"  	LOC = E10;
+NET "en[5]"  	LOC = D9;
+
+NET "ack"		LOC = J16;
+//NET "back"		LOC = L16; M15
+NET "db[2]"		LOC = K16;
+NET "db[1]"		LOC = L16;
+NET "db[0]"		LOC = M15;
+
+//NET "buzz"	LOC = J11;

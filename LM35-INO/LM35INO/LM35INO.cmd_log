@@ -1,0 +1,38 @@
+xst -intstyle ise -ifn "F:/University Classes/VHDL/Project/LM35-INO/LM35INO/LM35INO.xst" -ofn "F:/University Classes/VHDL/Project/LM35-INO/LM35INO/LM35INO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 "LM35INO.ngc" LM35INO.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LM35INO_map.ncd LM35INO.ngd LM35INO.pcf 
+par -w -intstyle ise -ol high -mt off LM35INO_map.ncd LM35INO.ncd LM35INO.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LM35INO.twx LM35INO.ncd -o LM35INO.twr LM35INO.pcf 
+bitgen -intstyle ise -f LM35INO.ut LM35INO.ncd 
+xst -intstyle ise -ifn "F:/University Classes/VHDL/Project/LM35-INO/LM35INO/LM35INO.xst" -ofn "F:/University Classes/VHDL/Project/LM35-INO/LM35INO/LM35INO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LM35INO.ucf -p xc6slx9-ftg256-3 "LM35INO.ngc" LM35INO.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LM35INO_map.ncd LM35INO.ngd LM35INO.pcf 
+par -w -intstyle ise -ol high -mt off LM35INO_map.ncd LM35INO.ncd LM35INO.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LM35INO.twx LM35INO.ncd -o LM35INO.twr LM35INO.pcf -ucf LM35INO.ucf 
+bitgen -intstyle ise -f LM35INO.ut LM35INO.ncd 
+xst -intstyle ise -ifn "F:/University Classes/VHDL/Project/LM35-INO/LM35INO/LM35INO.xst" -ofn "F:/University Classes/VHDL/Project/LM35-INO/LM35INO/LM35INO.syr" 
+xst -intstyle ise -ifn "F:/University Classes/VHDL/Project/LM35-INO/LM35INO/LM35INO.xst" -ofn "F:/University Classes/VHDL/Project/LM35-INO/LM35INO/LM35INO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LM35INO.ucf -p xc6slx9-ftg256-3 "LM35INO.ngc" LM35INO.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LM35INO_map.ncd LM35INO.ngd LM35INO.pcf 
+par -w -intstyle ise -ol high -mt off LM35INO_map.ncd LM35INO.ncd LM35INO.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LM35INO.twx LM35INO.ncd -o LM35INO.twr LM35INO.pcf -ucf LM35INO.ucf 
+bitgen -intstyle ise -f LM35INO.ut LM35INO.ncd 
+xst -intstyle ise -ifn "F:/University Classes/VHDL/Project/LM35-INO/LM35INO/LM35INO.xst" -ofn "F:/University Classes/VHDL/Project/LM35-INO/LM35INO/LM35INO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LM35INO.ucf -p xc6slx9-ftg256-3 "LM35INO.ngc" LM35INO.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LM35INO_map.ncd LM35INO.ngd LM35INO.pcf 
+par -w -intstyle ise -ol high -mt off LM35INO_map.ncd LM35INO.ncd LM35INO.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LM35INO.twx LM35INO.ncd -o LM35INO.twr LM35INO.pcf -ucf LM35INO.ucf 
+bitgen -intstyle ise -f LM35INO.ut LM35INO.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LM35INO.ucf -p xc6slx9-ftg256-3 "LM35INO.ngc" LM35INO.ngd  
+xst -intstyle ise -ifn "F:/University Classes/VHDL/Project/LM35-INO/LM35INO/LM35INO.xst" -ofn "F:/University Classes/VHDL/Project/LM35-INO/LM35INO/LM35INO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LM35INO.ucf -p xc6slx9-ftg256-3 "LM35INO.ngc" LM35INO.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LM35INO_map.ncd LM35INO.ngd LM35INO.pcf 
+par -w -intstyle ise -ol high -mt off LM35INO_map.ncd LM35INO.ncd LM35INO.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LM35INO.twx LM35INO.ncd -o LM35INO.twr LM35INO.pcf -ucf LM35INO.ucf 
+bitgen -intstyle ise -f LM35INO.ut LM35INO.ncd 
+xst -intstyle ise -ifn "F:/University Classes/VHDL/Project/LM35-INO/LM35INO/LM35INO.xst" -ofn "F:/University Classes/VHDL/Project/LM35-INO/LM35INO/LM35INO.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LM35INO.ucf -p xc6slx9-ftg256-3 "LM35INO.ngc" LM35INO.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LM35INO_map.ncd LM35INO.ngd LM35INO.pcf 
+par -w -intstyle ise -ol high -mt off LM35INO_map.ncd LM35INO.ncd LM35INO.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LM35INO.twx LM35INO.ncd -o LM35INO.twr LM35INO.pcf -ucf LM35INO.ucf 
+bitgen -intstyle ise -f LM35INO.ut LM35INO.ncd 
