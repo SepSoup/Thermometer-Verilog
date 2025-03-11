@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=F:\University Classes\VHDL\Project\LM35-INO\LM35INO\LM35INO.ncd
-OUTFILE=F:\University Classes\VHDL\Project\LM35-INO\LM35INO\LM35INO.bit
-FAMILY=Spartan6
-PART=xc6slx9-3ftg256
-WORKINGDIR=F:\University Classes\VHDL\Project\LM35-INO\LM35INO
-LICENSE=WebPack
-USER_INFO=__0_0_0
